@@ -1,0 +1,15 @@
+VAR_CONFIG
+	::Program:fb_driveSM.state AT %IW."8I64xxxxxxx.00x-1".ETAD_Input;
+	::Program:fb_driveSM.command AT %QW."8I64xxxxxxx.00x-1".CMDD_Output;
+	::Program:fb_driveSM.speed AT %QW."8I64xxxxxxx.00x-1".LFRD_Output;
+	::Program:fb_doorSM.direction AT %IX."X20DI9371".DigitalInput01;
+	::Program:fb_doorSM.sw0 AT %IX."X20DI9371".DigitalInput02;
+	::Program:fb_doorSM.sw1 AT %IX."X20DI9371".DigitalInput03;
+	::Program:fb_doorSM.sw2 AT %IX."X20DI9371".DigitalInput04;
+	::Program:fb_doorSM.sw3 AT %IX."X20DI9371".DigitalInput05;
+	::Program:fb_ledSM.led0 AT %QX."X20DO9322".DigitalOutput02;
+	::Program:fb_ledSM.led1 AT %QX."X20DO9322".DigitalOutput03;
+	::Program:fb_ledSM.led2 AT %QX."X20DO9322".DigitalOutput04;
+	::Program:fb_ledSM.led3 AT %QX."X20DO9322".DigitalOutput05;
+	::Program:real_speed AT %IW."8I64xxxxxxx.00x-1".RFRD_Input;
+END_VAR

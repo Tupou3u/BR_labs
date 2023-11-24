@@ -1,0 +1,12 @@
+VAR CONSTANT
+	ST_SWITCH_ON : UINT := 35;
+	ST_READY : UINT := 33;
+	ST_DISABLE : UINT := 64;
+	CMD_SWITCH_ON : UINT := 7;
+	CMD_SHUTDOWN : UINT := 6;
+	CMD_ENABLE : UINT := 15;
+	LowSpeed : UINT := 400;
+	HighSpeed : UINT := 400;
+	NormalSpeed : UINT := 750;
+	StartSpeed : UINT := 300;
+END_VAR

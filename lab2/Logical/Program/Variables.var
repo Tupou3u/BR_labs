@@ -1,0 +1,7 @@
+VAR
+	real_speed : INT := 0;
+	fb_doorSM : FB_DoorSM := (0);
+	fb_ledSM : FB_LedSM := (0);
+	fb_driveSM : FB_DriveSM := (0);
+	state : doorSt := stINIT;
+END_VAR
